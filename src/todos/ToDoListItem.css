@@ -1,0 +1,57 @@
+.list-item-container {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    background-color: rgb(200, 216, 245);
+    box-shadow: 5px 5px rgb(171, 190, 226);
+    width: 724px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.button-container {
+    float: right;
+    margin-top: -40px;
+}
+
+.completed-button {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(154, 211, 164);
+    color: #3A4454;
+    border-width: 0px;
+}
+
+.completed-button:hover {
+    border: #3A4454 solid 1px;
+    cursor: pointer;
+}
+
+.completed-button:active {
+    background-color: rgb(140, 202, 151);
+}
+
+.remove-button {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(226, 171, 171);
+    color: #3A4454;
+    border-width: 0px;
+}
+
+.remove-button:hover {
+    border: #3A4454 solid 1px;
+    cursor: pointer;
+}
+
+.remove-button:active {
+    background-color: rgb(209, 147, 147);
+}
