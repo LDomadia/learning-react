@@ -12,8 +12,7 @@
 }
 
 .button-container {
-    float: right;
-    margin-top: -40px;
+    margin-left: 425px;
 }
 
 .completed-button {
@@ -21,7 +20,7 @@
     height: 40px;
     padding: 10px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(154, 211, 164);
     color: #3A4454;
     border-width: 0px;
@@ -33,7 +32,7 @@
 }
 
 .completed-button:active {
-    background-color: rgb(140, 202, 151);
+    background-color: rgb(122, 189, 134);
 }
 
 .remove-button {
@@ -41,7 +40,7 @@
     height: 40px;
     padding: 10px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(226, 171, 171);
     color: #3A4454;
     border-width: 0px;
