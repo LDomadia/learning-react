@@ -12,7 +12,9 @@
 }
 
 .button-container {
-    margin-left: 425px;
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
 }
 
 .completed-button {
