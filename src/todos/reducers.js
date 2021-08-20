@@ -8,7 +8,7 @@ export const todos = (state = [], action) => {
             const { text } = payload;
             const newToDo = {
                 text,
-                isComplete = false,
+                isComplete: false,
             };
             return state.concat(newToDo);
         }
